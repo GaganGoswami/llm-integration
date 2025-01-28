@@ -3,7 +3,7 @@ import openai
 import requests
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
-from IPython.display import Markdown, display
+from IPython.display import Markdown, display, update_display
 
 
 from openai import OpenAI
